@@ -216,6 +216,10 @@ html {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.card2 {
+  background-color: 138;
+  height: 10rem; }
+
 .card {
   perspective: 200rem;
   -moz-perspective: 150rem;
@@ -240,6 +244,10 @@ html {
       transform: rotateY(180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #ffb900, #f1732e); }
+      .card__side--back-2 {
+        background-image: linear-gradient(to right bottom, #7ed567, #28b485); }
+      .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #3e48cc, #060b5a); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
