@@ -284,6 +284,24 @@ html {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
+  .card__cta {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    width: 90%; }
+  .card__price-box {
+    text-align: center;
+    margin-bottom: 6rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 1rem; }
+  .card__price-value {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-top: .5rem; }
 
 /*! jQuery UI - v1.11.4 - 2015-03-11
 * http://jqueryui.com
@@ -1841,7 +1859,7 @@ body .ui-tooltip {
 
 .footer-parts__social-links {
   list-style: none;
-  color: white; }
+  color: #fff; }
   .footer-parts__social-links--1 {
     display: inline-block;
     margin-right: 1rem;
@@ -1864,9 +1882,9 @@ body .ui-tooltip {
 
 .footer-parts__rights {
   font-size: 1.3rem;
-  color: white; }
+  color: #fff; }
   .footer-parts__rights--1 {
-    color: white;
+    color: #fff;
     text-align: center;
     margin-top: 6rem;
     border-radius: 50%; }
@@ -1874,7 +1892,7 @@ body .ui-tooltip {
 .footer-parts__skills {
   list-style: none;
   font-size: 1.3rem;
-  color: white; }
+  color: #fff; }
   .footer-parts__skills--1 {
     display: inline-block;
     margin-right: 1rem;
