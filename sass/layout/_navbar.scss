@@ -1,0 +1,85 @@
+.aristos{
+
+    &__logo-box {
+        position: absolute;
+        top: 2rem;
+        left: 3rem;        
+    }
+    &__logo {
+        height: 6rem;
+        border-radius: 50%;
+    }
+
+    &__main-nav {
+        list-style: none;
+        float: right;
+        margin-top: 2rem;
+        
+        &--1{
+            display: inline-block;    
+            margin-right: 2.5rem;
+            
+            &:link,
+            &:visited{
+                padding: .1rem 0rem;
+                color: $color-white;
+                font-size: 2rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                border-bottom: .5rem solid transparent;
+                transition: border-bottom 0.2s;
+            }
+
+            &:hover,
+            &:active{
+                border-bottom: 0.2rem solid ;
+                color:$color-secondary-dark;
+            }
+        }
+
+        &--2{
+            display: inline-block;
+            margin-right: 2.5rem;
+
+            &:link,
+            &:visited{
+                padding: .1rem 0rem;
+                color: $color-white;
+                font-size: 2rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                border-bottom: .5rem solid transparent;
+                transition: border-bottom 0.2s;
+            }
+
+            &:hover,
+            &:active{
+                border-bottom: 0.2rem solid ;
+                color:$color-secondary-dark;
+            }
+        }
+
+        &--3{
+            display: inline-block;
+            margin-right: 2.5rem;
+
+            &:link,
+            &:visited{
+                padding: .1rem 0rem;
+                color: $color-white;
+                font-size: 2rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                border-bottom: .5rem solid transparent;
+                transition: border-bottom 0.2s;
+            }
+
+            &:hover,
+            &:active{
+                border-bottom: 0.2rem solid ;
+                color:$color-secondary-dark;
+            }
+
+        }
+    }
+}

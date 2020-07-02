@@ -1914,20 +1914,13 @@ body .ui-tooltip {
     margin-right: .1rem; }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 103, 0.8), rgba(40, 180, 133, 0.8)), url(../img/grass.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 6rem;
-    border-radius: 50%; }
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%); }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -2009,30 +2002,88 @@ body .ui-tooltip {
     border-top: 1px solid #f7f7f7;
     padding-top: 1rem; }
 
+.aristos__logo-box {
+  position: absolute;
+  top: 2rem;
+  left: 3rem; }
+
+.aristos__logo {
+  height: 6rem;
+  border-radius: 50%; }
+
+.aristos__main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 2rem; }
+  .aristos__main-nav--1 {
+    display: inline-block;
+    margin-right: 2.5rem; }
+    .aristos__main-nav--1:link, .aristos__main-nav--1:visited {
+      padding: .1rem 0rem;
+      color: #fff;
+      font-size: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .aristos__main-nav--1:hover, .aristos__main-nav--1:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+  .aristos__main-nav--2 {
+    display: inline-block;
+    margin-right: 2.5rem; }
+    .aristos__main-nav--2:link, .aristos__main-nav--2:visited {
+      padding: .1rem 0rem;
+      color: #fff;
+      font-size: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .aristos__main-nav--2:hover, .aristos__main-nav--2:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+  .aristos__main-nav--3 {
+    display: inline-block;
+    margin-right: 2.5rem; }
+    .aristos__main-nav--3:link, .aristos__main-nav--3:visited {
+      padding: .1rem 0rem;
+      color: #fff;
+      font-size: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .aristos__main-nav--3:hover, .aristos__main-nav--3:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 10rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 103, 0.8), rgba(40, 180, 133, 0.8)), url(../img/grass.png);
   background-size: cover;
-  transform: skewY(-7deg);
-  margin-top: -10rem; }
-  .section-features > * {
-    transform: skewY(7deg); }
+  margin-top: .1rem; }
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
-  margin-top: -10rem; }
+  padding: 20rem 0 20rem 0;
+  margin-top: -5rem; }
 
 .section-footer {
   padding: 3rem;
   margin-top: 2rem;
   margin-bottom: 0rem;
   background-color: #28b485; }
+
+.section-aristosChars {
+  padding: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 10rem; }
 
 /*
 

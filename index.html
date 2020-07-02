@@ -19,18 +19,31 @@
         <script src="js/script.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/progressBar.js"></script>
-        <title>Aristos | Vehicle with unique characteristics</title>
+        <title>Aristos</title>
         <script src="https://kit.fontawesome.com/264541b314.js" crossorigin="anonymous"></script>
 
         <!-- https://bennettfeely.com/clippy/ -->
     </head>
     <body>
-        <!-- BEM Logic : Block Element Modifier -->
+        
+            <!-- BEM Logic : Block Element Modifier -->
         <header class="header"><!-- It's a block element has meaning alone  -->
-            <div class="header__logo-box"><!-- logo-box it's an element as it has not meaning on its own -->
-                <img src="img/logoUI.png" alt="Logo" class="header__logo"><!-- logo it's an element as it has no meaning on it's own  -->
-            </div> 
+        
+            <nav class="aristos">
+                
+                <div class="aristos__logo-box"><!-- logo-box it's an element as it has not meaning on its own -->
+                    <img src="img/logoUI.png" alt="Logo" class="aristos__logo"><!-- logo it's an element as it has no meaning on it's own  -->
+                </div> 
+                <ul class="aristos__main-nav">    
+                    <a href="Characteristics.html" class="aristos__main-nav--1">Aristos Chars</a>
+                    <a href="Energy.html" class="aristos__main-nav--2">Energy Levels</a>
+                    <a href="Materials.html" class="aristos__main-nav--3">Materials</a>
+                </ul>
+                
 
+            </nav>
+            
+            
             <div class="header__text-box">    
                 <h1 class="heading-primary"><!-- It's a standalone block element -->
                     <span class="heading-primary--main">Aristos</span><!-- Modifier of the heading primary -->
@@ -38,7 +51,7 @@
                         GROUND VEHICLE</span><!-- Modifier of the heading primary -->
                 </h1>
                 <!-- I will add an anchor element -->
-                <a href="#" class="btn btn--white btn--animated js--scroll-aristos">Discover Aristos</a><!-- button is a block white and animated are modifiers -->
+                <a href="Aristos.html" class="btn btn--white btn--animated js--scroll-aristos">Discover Aristos</a><!-- button is a block white and animated are modifiers -->
                 </a>
             </div>
         </header>
@@ -238,7 +251,13 @@
 
                 </div>
             </section>
-
+            <!--
+                1) How to make text flow around shapes with shape-outside and float;
+                2) How to apply a filter to images;
+                3) How to create a baackground video covering an entire section;
+                4) How to use the <video> HTML element;
+                5) How and when to use the object-fit property.
+            -->
 
 
             <section class="section-footer">
@@ -284,27 +303,7 @@
 
 
         </main>
-        <footer class="footer">
-            <div class="footer__logo-box">
-                <img src="img/logoUI.png" alt="Full logo" class="footer__logo">
-            </div>
-            <div class="row">
-                <div class="col-1-of-2">
-                    <div class="footer__navigation">
-                        <ul class="footer__list">
-                            <li class="footer__item"><a href="#" class="footer__link">I Know How</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Aristos</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Software Engineering</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1-of-2">
-                    <p class="footer__copyright">
-                        Copyright &copy; 2020 by IKnowHow. All rights reserved.
-                    </p>
-                </div>
-            </div>
-        </footer>
+        
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
 </html>
