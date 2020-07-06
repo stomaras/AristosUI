@@ -2058,6 +2058,99 @@ body .ui-tooltip {
       border-bottom: 0.2rem solid;
       color: #f1732e; }
 
+.aristosChars {
+  margin-top: 0rem;
+  top: 0;
+  margin-left: 5rem; }
+  .aristosChars__main {
+    list-style: none;
+    float: left;
+    margin-top: 0rem; }
+    .aristosChars__main--1:link, .aristosChars__main--1:visited {
+      margin-right: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .aristosChars__main--1:hover, .aristosChars__main--1:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+    .aristosChars__main--2:link, .aristosChars__main--2:visited {
+      color: #fff;
+      margin-right: 0rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .aristosChars__main--2:hover, .aristosChars__main--2:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+
+.material {
+  margin-top: 0rem;
+  top: 0;
+  margin-left: 5rem; }
+  .material__main {
+    list-style: none;
+    float: left;
+    margin-top: 0rem; }
+    .material__main--1:link, .material__main--1:visited {
+      margin-right: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #28b485;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .material__main--1:hover, .material__main--1:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+    .material__main--2:link, .material__main--2:visited {
+      color: #28b485;
+      margin-right: 0rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .material__main--2:hover, .material__main--2:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+
+.Vehicle {
+  margin-top: 0rem;
+  top: 0;
+  margin-left: 5rem; }
+  .Vehicle__main {
+    list-style: none;
+    float: left;
+    margin-top: 0rem; }
+    .Vehicle__main--1:link, .Vehicle__main--1:visited {
+      margin-right: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #28b485;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .Vehicle__main--1:hover, .Vehicle__main--1:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+    .Vehicle__main--2:link, .Vehicle__main--2:visited {
+      color: #28b485;
+      margin-right: 0rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 2rem;
+      border-bottom: .5rem solid transparent;
+      transition: border-bottom 0.2s; }
+    .Vehicle__main--2:hover, .Vehicle__main--2:active {
+      border-bottom: 0.2rem solid;
+      color: #f1732e; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
